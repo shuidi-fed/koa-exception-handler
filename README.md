@@ -1,14 +1,20 @@
-# koa-exception
+# koa-exception-handler
 
 > Customizable koa exception (error) handling middleware
 
 [**中文文档**](./README.zh-CN.md)
 
+## Installation
+
+```sh
+yarn add koa-exception-handler
+```
+
 ## Usage
 
 ```js
 const Koa = require('koa')
-const koaException = require('koa-exception')
+const koaException = require('koa-exception-handler')
 
 const app = new Koa()
 

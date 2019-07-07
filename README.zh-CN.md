@@ -2,6 +2,12 @@
 
 > Customizable koa exception (error) handling middleware
 
+## 安装
+
+```sh
+yarn add koa-exception-handler
+```
+
 ## 用法
 
 ```js
