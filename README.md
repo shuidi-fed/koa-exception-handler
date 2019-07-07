@@ -2,6 +2,8 @@
 
 > Customizable koa exception (error) handling middleware
 
+[**中文文档**](./README.zh-CN.md)
+
 ## Usage
 
 ```js
