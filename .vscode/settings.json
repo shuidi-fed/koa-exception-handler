@@ -1,0 +1,9 @@
+{
+    // Disable the built-in VSCode validator. 
+    // Use vscode-standardjs: 
+    // https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs
+    "javascript.validate.enable": false,
+    "standard.autoFixOnSave": true,
+    "standard.usePackageJson": true,
+    "files.autoSave": "off"
+  }

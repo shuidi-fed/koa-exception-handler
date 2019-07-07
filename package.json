@@ -1,0 +1,122 @@
+{
+  "name": "koa-exception",
+  "description": "Customizable koa exception (error) handling middleware",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard --fix && cross-env BABEL_ENV=test jest --coverage",
+    "commit": "npx git-cz",
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
+  },
+  "files": [
+    "lib/index.js"
+  ],
+  "devDependencies": {
+    "commitizen": "^3.1.1",
+    "conventional-changelog-cli": "^2.0.21",
+    "cross-env": "^5.2.0",
+    "cz-emoji": "^1.1.2",
+    "husky": "^2.3.0",
+    "jest": "^24.8.0",
+    "lint-staged": "^8.1.7",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn test",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-emoji"
+    },
+    "cz-emoji": {
+      "types": [
+        {
+          "emoji": "\t🌟",
+          "code": ":star2:",
+          "description": "\tA new feature",
+          "name": "feat"
+        },
+        {
+          "emoji": "\t🐞",
+          "code": ":beetle:",
+          "description": "\tA bug fix",
+          "name": "fix"
+        },
+        {
+          "emoji": "\t🎨",
+          "code": ":art:",
+          "description": "\tNeither fixes a bug nor adds a feature",
+          "name": "refactor"
+        },
+        {
+          "emoji": "\t🚓",
+          "code": ":police_car:",
+          "description": "\t Testing improved with new or fixed tests",
+          "name": "test"
+        },
+        {
+          "emoji": "\t🔩",
+          "code": ":nut_and_bolt:",
+          "description": "\tDoesn't modify src or test files",
+          "name": "chore"
+        },
+        {
+          "emoji": "\t💰",
+          "code": ":moneybag:",
+          "description": "\tImproves performance with this change",
+          "name": "perf"
+        },
+        {
+          "emoji": "\t🚥",
+          "code": ":traffic_light:",
+          "description": "\tCI config files and scripts",
+          "name": "ci"
+        },
+        {
+          "emoji": "\t♻️",
+          "code": ":recycle:",
+          "description": "\tOptimize workflow",
+          "name": "workflow"
+        },
+        {
+          "emoji": "\t🚀",
+          "code": ":rocket:",
+          "description": "\tBuild system config or external dependencies",
+          "name": "build"
+        },
+        {
+          "emoji": "\t📚",
+          "code": ":books:",
+          "description": "\tDocumentation change",
+          "name": "docs"
+        },
+        {
+          "emoji": "\t💊",
+          "code": ":pill:",
+          "description": "\tReverts a previous commit",
+          "name": "revert"
+        },
+        {
+          "emoji": "\t🎉",
+          "code": ":tada:",
+          "description": "\tInitialize a new package.",
+          "name": "init"
+        }
+      ],
+      "scopes": []
+    }
+  }
+}
