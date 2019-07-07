@@ -1,5 +1,9 @@
 # koa-exception-handler
 
+[![](https://img.shields.io/npm/v/koa-exception-handler.svg)](https://www.npmjs.com/package/koa-exception-handler)
+<a href="https://github.com/vuese/vuese"><img src="https://img.shields.io/github/license/vuese/vuese.svg" alt="License"/></a>
+<a href="http://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen friendly"/></a>
+
 > Customizable koa exception (error) handling middleware
 
 [**中文文档**](./README.zh-CN.md)
