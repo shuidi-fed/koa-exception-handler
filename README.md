@@ -1,5 +1,6 @@
 # koa-exception-handler
 
+<a href="https://circleci.com/gh/shuidi-fed/koa-exception-handler/tree/master"><img src="https://img.shields.io/circleci/build/github/shuidi-fed/koa-exception-handler/master.svg" alt="build status"/></a>
 [![](https://img.shields.io/npm/v/koa-exception-handler.svg)](https://www.npmjs.com/package/koa-exception-handler)
 <a href="https://github.com/shuidi-fed/koa-exception-handler"><img src="https://img.shields.io/github/license/shuidi-fed/koa-exception-handler.svg" alt="License"/></a>
 <a href="http://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen friendly"/></a>
