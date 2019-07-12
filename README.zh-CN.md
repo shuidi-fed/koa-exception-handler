@@ -21,9 +21,9 @@ app.use(koaException(options))
 
 ## options
 
-### options.logger
+### options.errorLogger
 
-自定义 `logger` 函数。
+自定义 `errorLogger` 函数。
 
 - Type: `function`
 - Default: `console.error`

@@ -28,9 +28,9 @@ app.use(koaException(options))
 
 ## options
 
-### options.logger
+### options.errorLogger
 
-Customize `logger` function.
+Customize `errorLogger` function.
 
 - Type: `function`
 - Default: `console.error`
