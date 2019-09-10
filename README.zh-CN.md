@@ -1,4 +1,4 @@
-# koa-exception
+# koa-exception-handler
 
 > Customizable koa exception (error) handling middleware
 
@@ -12,12 +12,16 @@ yarn add koa-exception-handler
 
 ```js
 const Koa = require('koa')
-const koaException = require('koa-exception')
+const koaException = require('koa-exception-handler')
 
 const app = new Koa()
 
 app.use(koaException(options))
 ```
+
+## 错误处理逻辑
+
+`koa-exception-handler` 能够捕获程序中抛出的错误，并根据错误对象的 `code` 值区分错误的类型。
 
 ## options
 
